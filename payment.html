@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Sangjit Mahar Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EDD8D4;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            object-position: center;
+            margin-bottom: 30px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 50px;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 10px;
+            font-family: montserrat;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .payment-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .payment-container h2 {
+            color: #333;
+        }
+
+        .payment-details {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .product-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .review-form {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .review-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .review-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .review-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MAHAR SANGJIT</div>
+        <a href="index.html">HOME</a>
+        <a href="#">LOGIN</a>
+        <a href="#">CATALOG</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </header>
+
+    <main>
+        <div class="payment-container">
+            <h2>Payment Details</h2>
+            <img class="product-image" src="produk1.png" alt="Product 1">
+            <div class="payment-details">
+                <p><strong>Product:</strong> Nama Paket 1</p>
+                <p><strong>Total Amount:</strong> 2.000.000</p>
+                <p><strong>Payment Method:</strong> Credit Card</p>
+                <p><strong>Card Number:</strong> **** **** **** 1234</p>
+                <p><strong>Expiration Date:</strong> 12/25</p>
+            </div>
+            <p>Thank you for your purchase!</p>
+            <div class="review-form">
+                <h3>Write a Review</h3>
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="4" placeholder="Enter your review here..."></textarea>
+                <button type="submit">Submit Review</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2022 Sangjit Mahar Shop
+    </footer>
+</body>
+</html>
